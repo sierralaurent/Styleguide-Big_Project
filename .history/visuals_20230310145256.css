@@ -119,8 +119,8 @@
     margin-bottom: 5rem;
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-    row-gap: 5rem;
+    row-gap: 5%;
+    padding: 5%;
     color: var(--dark-purple);
     background-color: aquamarine;
   }

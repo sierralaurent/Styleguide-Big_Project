@@ -121,6 +121,7 @@
     flex-direction: row;
     gap: 5rem;
     row-gap: 5rem;
+    column-gap: 5rem;
     color: var(--dark-purple);
     background-color: aquamarine;
   }
