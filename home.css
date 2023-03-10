@@ -149,7 +149,7 @@ body {
 .home-olivia {
   flex: 0 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .home-olivia-text {
@@ -182,7 +182,7 @@ body {
 .home-elijah {
   flex: 0 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .home-elijah-text {
@@ -215,7 +215,7 @@ body {
 .home-sierra {
   flex: 0 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .home-sierra-text {
@@ -240,8 +240,10 @@ body {
   text-fill-color: transparent;
 }
 .home-text21 {
-  width: 25rem;
+  width: 15rem;
+  align-self: center;
   text-align: center;
+  color: var(--dark-purple);
 }
 .home-text23 {
   width: 15rem;
