@@ -1,0 +1,94 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 250px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 312px;
+  height: 100%;
+  background-image: url("assets/background.png");
+  background-size: cover;
+  transition: 0.5s;
+  border-radius: 27px 0 0 27px;
+}
+
+.logo {
+    margin: 1.5rem;
+}
+
+.menutitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: left;
+  color: rgba(255, 255, 255, 0.32);
+  margin: 1rem;
+}
+
+.navigation ul li {
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  text-align: left;
+  font-weight: 500;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 20px 30px;
+  border-bottom: 0px 64px 64px -32px rgba(41, 15, 0, 0.56);
+  transition: all 0.3s ease;
+}
+
+.navigation ul li:hover {
+  padding: 16px 20px;
+  background-image: url("assets/hover.png");
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.hamburger,
+.bar {
+  position: fixed;
+}
+
+.hamburger {
+  display: block;
+  top: 5%;
+  left: 95%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  border: 0;
+  background: 0 0;
+}
+
+.hamburger.hidden {
+  display: none; /* Hide the menu button */
+}
+
+.navigation.active {
+  right: 0;
+  z-index: 1;
+}
+
+
+    
