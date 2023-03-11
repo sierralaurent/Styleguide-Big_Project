@@ -3,7 +3,8 @@
   --dl-creme: #f9f9ffff;
   --dl-white: #f8f9f9ff;
   --dark-purple: #311D4A;
-
+  --main-purple: #9381FF;
+  --light-purple: #B8B8FF;
 }
 
 .body {
@@ -16,6 +17,15 @@
 }
 .sidetitle {
   font-size: 122px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.subtitleText {
+  font-size: 32px;
+  font-style: normal;
   font-family: Montserrat;
   font-weight: 500;
   line-height: 1.15;
