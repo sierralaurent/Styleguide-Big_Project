@@ -121,17 +121,7 @@
     gap: 5rem;
     row-gap: 5rem;
     color: var(--dark-purple);
-    font-weight: bolder;
-  }
-  .home-text11 {
-    width: auto;
-    margin-top: 5rem;
-    text-align: left;
-    padding: 5rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 3rem;
+    background-color: aquamarine;
   }
   .home-container4 {
     flex: 0 0 auto;
@@ -214,7 +204,7 @@
     color: var(--dark-purple);
   
   }
-  @media (max-width: 1900px) {
+  @media (max-width: 1600px) {
     .home-container1 {
       width: 100%;
     }
@@ -232,7 +222,7 @@
     .home-text03 {
       width: auto;
       margin: 3rem;
-      padding: 2rem;
+      padding: 5rem;
     }
     .home-text17 {
       width: 40rem;
@@ -261,13 +251,61 @@
       width: 100%;
       margin-bottom: 15rem;
     }
+    .home-olivia {
+      width: 20rem;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-olivia-text {
+      width: auto;
+      font-size: 46px;
+      font-family: Montserrat;
+      font-weight: 500;
+      line-height: 1.15;
+      margin-bottom: 2rem;
+      text-transform: none;
+      text-decoration: none;
+    }
     .home-text19 {
       width: 15rem;
       text-transform: none;
     }
+    .home-elijah {
+      width: 20rem;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-elijah-text {
+      width: auto;
+      font-size: 46px;
+      font-family: Montserrat;
+      font-weight: 500;
+      line-height: 1.15;
+      margin-bottom: 2rem;
+      text-transform: none;
+      text-decoration: none;
+    }
     .home-text20 {
       width: 15rem;
       text-transform: none;
+    }
+    .home-sierra {
+      width: 20rem;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-sierra-text {
+      width: auto;
+      font-size: 46px;
+      font-family: Montserrat;
+      font-weight: 500;
+      line-height: 1.15;
+      margin-bottom: 2rem;
+      text-transform: none;
+      text-decoration: none;
     }
     .home-text21 {
       margin-bottom: 2rem;
@@ -286,11 +324,34 @@
     .home-container6 {
       align-items: center;
     }
+    .home-olivia {
+      width: 15rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .home-olivia-text {
+      width: auto;
+    }
     .home-text19 {
       width: 12rem;
     }
+    .home-elijah {
+      width: 15rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .home-elijah-text {
+      width: auto;
+    }
     .home-text20 {
       width: 12rem;
+    }
+    .home-sierra {
+      width: 15rem;
+      margin-left: 1rem;
+    }
+    .home-sierra-text {
+      width: auto;
     }
     .home-text23 {
       width: 12rem;
@@ -309,10 +370,30 @@
       align-items: center;
       flex-direction: column;
     }
+    .home-olivia {
+      width: 20rem;
+      margin-bottom: 3rem;
+    }
+    .home-olivia-text {
+      width: auto;
+    }
     .home-text19 {
       width: auto;
     }
+    .home-elijah {
+      width: 20rem;
+      margin-bottom: 3rem;
+    }
+    .home-elijah-text {
+      width: auto;
+    }
     .home-text20 {
+      width: auto;
+    }
+    .home-sierra {
+      width: 20rem;
+    }
+    .home-sierra-text {
       width: auto;
     }
     .home-text23 {
@@ -332,12 +413,6 @@
       text-align: center;
       margin-left: 16px;
       margin-right: 16px;
-    }
-    .home-text03 {
-      margin-top: 0rem;
-      margin-left: 3rem;
-      margin-right: 0rem;
-      margin-bottom: 0rem;
     }
   }
   @media (max-width: 479px) {

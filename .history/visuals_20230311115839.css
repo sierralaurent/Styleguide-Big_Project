@@ -121,17 +121,7 @@
     gap: 5rem;
     row-gap: 5rem;
     color: var(--dark-purple);
-    font-weight: bolder;
-  }
-  .home-text11 {
-    width: auto;
-    margin-top: 5rem;
-    text-align: left;
-    padding: 5rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 3rem;
+    background-color: aquamarine;
   }
   .home-container4 {
     flex: 0 0 auto;
@@ -332,12 +322,6 @@
       text-align: center;
       margin-left: 16px;
       margin-right: 16px;
-    }
-    .home-text03 {
-      margin-top: 0rem;
-      margin-left: 3rem;
-      margin-right: 0rem;
-      margin-bottom: 0rem;
     }
   }
   @media (max-width: 479px) {
