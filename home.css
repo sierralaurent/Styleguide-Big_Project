@@ -97,7 +97,6 @@ body {
   justify-content: center;
 }
 .home-text03 {
-  width: 25rem;
   text-align: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     radial-gradient(
@@ -111,7 +110,7 @@ body {
   text-fill-color: transparent;
 }
 .home-text17 {
-  width: auto;
+  width: 35rem;
   margin-top: 5rem;
   text-align: left;
   margin-left: 5rem;
@@ -277,8 +276,16 @@ body {
 }
 .home-text24 {
   text-align: center;
-  color: var(--dark-purple);
-
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(147, 129, 255, 0.2) 0%,
+      rgba(79, 26, 98, 0.2) 94.12%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 @media (max-width: 1600px) {
   .home-container1 {
